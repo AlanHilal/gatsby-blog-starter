@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Blog Starter`,
-    description: `A Blog starter`,
-    author: `Boy with Silver Wings`,
-    authorTagline: 'Engineer. Driven by Passion',
+    title: `Alan Hilal's Blog`,
+    description: `Alan Hilal`,
+    author: `ئاڵان هلال`,
+    authorTagline: 'ئەندازیاری کۆمپیوتەر',
     social: {
-      twitter: `agneymenon`,
+      twitter: `alanhilal`,
     },
   },
   plugins: [

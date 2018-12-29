@@ -29,6 +29,8 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100vh;
     position: relative;
     font-size: 1.6rem;
+    text-align: right;
+    direction: rtl;
   }
 
   h1, h2, h3, h4, h5, h6 {

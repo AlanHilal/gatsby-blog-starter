@@ -24,9 +24,9 @@ class BlogPostTemplate extends React.Component {
                 color: rgba(0, 0, 0, 0.8);
               `}
             >
-              <span>Posted on {post.frontmatter.date}</span>
-              <span>&nbsp; - &nbsp;</span>
-              <span>{post.fields.readingTime.text}</span>
+              <span>بڵاوکراوەتەوە لە {post.frontmatter.date}</span>
+              {/* <span>&nbsp; - &nbsp;</span>
+              <span>{post.fields.readingTime.text}</span> */}
             </sub>
           </Header>
           <div

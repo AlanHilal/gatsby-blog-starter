@@ -24,10 +24,13 @@ class BlogIndex extends Component {
     const posts = data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <SEO title="All Posts" keywords={[`gatsby`, `blog`, `react`]} />
+        <SEO
+          title="هەموو بابەتەکان"
+          keywords={[`کۆمپیوتەر`, `بڵاگ`, `کوردی`]}
+        />
         <Bio />
         <main>
-          <Title>Latest Posts</Title>
+          <Title>دواین بابەتەکان</Title>
           {posts.map(({ node }) => {
             return <Post key={node.id} node={node} />;
           })}
