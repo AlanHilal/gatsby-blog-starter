@@ -2,18 +2,24 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled, { createGlobalStyle } from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
+import * as fonts from '../fonts';
 
 import Header from './header';
 import media from '../utils/media';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
-    font-family: system;
+    font-family: NotoNaskhRegular;
     font-style: normal;
     font-weight: 300;
-    src: local('.SFNSText-Light'), local('.HelveticaNeueDeskInterface-Light'),
-      local('.LucidaGrandeUI'), local('Ubuntu Light'), local('Segoe UI Light'),
-      local('Roboto-Light'), local('DroidSans'), local('Tahoma');
+    src: url(${fonts.NotoNaskhRegular}) format('truetype');
+  }
+
+  @font-face {
+    font-family: NotoNaskhBold;
+    font-style: normal;
+    font-weight: 300;
+    src: url(${fonts.NotoNaskhBold}) format('truetype');
   }
 
   :root {
@@ -21,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'system';
+    font-family: 'NotoNaskhRegular';
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -34,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'NotoNaskhBold', sans-serif;
   }
 
   h2 {

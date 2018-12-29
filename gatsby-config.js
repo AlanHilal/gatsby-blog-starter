@@ -3,7 +3,7 @@ module.exports = {
     title: `Alan Hilal's Blog`,
     description: `Alan Hilal`,
     author: `ئاڵان هلال`,
-    authorTagline: 'ئەندازیاری کۆمپیوتەر',
+    authorTagline: 'لە سەر هەموو ئەو شتانە دەنووسم کە ئەزموونیان دەکەم',
     social: {
       twitter: `alanhilal`,
     },
